@@ -13,10 +13,10 @@ ruta_modelo = os.path.join(destino, "pytorch_model-00001-of-00002.bin")
 
 # Descargar modelo si no existe
 if not os.path.exists(ruta_modelo):
-    print(f"📥 Descargando {os.path.basename(ruta_modelo)} ...")
+    print(f" Descargando {os.path.basename(ruta_modelo)} ...")
     os.system(f"wget {url} -O {ruta_modelo}")
 else:
-    print(f"✅ {os.path.basename(ruta_modelo)} ya existe, omitiendo descarga.")
+    print(f" {os.path.basename(ruta_modelo)} ya existe, omitiendo descarga.")
 
 # --- Crear script ejecutable ---
 script_cmd = "/usr/local/bin/chatbot-cmd"
@@ -55,5 +55,5 @@ with open(bashrc_path, "r") as f:
 # Fuente del bashrc
 os.system("source ~/.bashrc")
 
-print("✅ Chatbot instalado como comando '>='")
+print(" Chatbot instalado como comando '>='")
 print("Ejecuta '>= ' y escribe tu pregunta (solo una respuesta por ejecución).")
