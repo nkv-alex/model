@@ -1,0 +1,27 @@
+MANUAL DE USO
+===========================================
+Fecha de emisión: 2025-11-4:12:10
+Autor: nkv-alex
+Autor Manual: alexandr Tuceac
+
+------------------------------------------------------------
+1. DESCRIPCIÓN GENERAL
+------------------------------------------------------------
+Es una implementacion sencilla de una ia local para respuestas inmediatas usa un modelo gratuito sacado de gpt4all  de 1b de prametros
+
+------------------------------------------------------------
+2. REQUISITOS DE SISTEMA
+------------------------------------------------------------
+ • Sistema operativo:Debian 13.
+ • Permisos: ejecución con privilegios root (sudo).
+ • Red: interfaces funcionales internas/externas para NAT y descubrimiento.
+
+
+------------------------------------------------------------
+3. AUTOR Y SOPORTE
+------------------------------------------------------------
+Desarrollado por: nkv-alex
+Versión inicial: 2025
+Uso interno autorizado. Contactar al administrador de sistemas para soporte.
+
+============================================================
