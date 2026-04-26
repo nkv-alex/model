@@ -1,0 +1,9 @@
+Source: nkv-model
+Section: utils
+Priority: optional
+Maintainer: alex <tuceac72@gmail.com>
+Standards-Version: 4.6.2
+
+Package: nkv-model
+Architecture: all
+Depends: python3
